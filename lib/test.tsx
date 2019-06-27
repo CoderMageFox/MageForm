@@ -14,6 +14,7 @@ class Test extends Component<IProps, {}> {
   render() {
     return (
         <div>
+          666
         {name}
         </div>
     );
