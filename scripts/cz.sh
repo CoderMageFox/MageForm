@@ -4,3 +4,4 @@ git-cz
 
 npm version patch
 
+git push
