@@ -1,6 +1,6 @@
 {
-  "name": "react98",
-  "version": "0.1.8",
+  "name": "mageform",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "files": [
     "dist",
@@ -19,8 +19,8 @@
     "build": "webpack -p --config webpack.config.prod.js",
     "test": "jest",
     "ci": "JEST_JUNIT_OUTPUT=./test-results/jest/results.xml jest --config=jest.config.ci.js",
-    "deploy": "scripts/deploy.sh",
-    "cz":"scripts/cz.sh"
+    "deploy": "bash scripts/deploy.sh",
+    "cz":"bash scripts/cz.sh"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.14",

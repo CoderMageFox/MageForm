@@ -2,4 +2,5 @@ git add --all
 
 git-cz
 
-git push
+npm version patch
+
